@@ -1,2 +1,23 @@
 
-bst built upon cartesian tree
+implementation of std::set based upon cartesian tree.
+
+template<class ValueType> class Set; 
+
+supports:
+1. default constructor
+2. constructor with 2 iterators: 
+  iterator to the first element of the sequence and to one over the last element of the sequence, 
+  iterators have ValueType type
+3. constructro with std::initializer_list
+4. copy constructor
+5. operator=
+6. destructor
+7. size method
+8. empty method
+9. insert method
+10. erase method
+11. find method
+12. lower_bound method
+13. read only iterator, which supports:
+  ++, --, ==, !=, ->, *, traverses container in increasing order (defined by operator< of ValueType)
+  
