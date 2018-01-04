@@ -1,6 +1,7 @@
 
 Hash over fixed set of n integers from -1e9 to 1e9.
 Universal perfect hashing implementation.
+Code is really neat and clean !
 
 class FixedSet { 
 public: 
