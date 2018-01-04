@@ -1,0 +1,19 @@
+
+Hash over fixed set of n integers from -1e9 to 1e9.
+Universal perfect hashing implementation.
+
+class FixedSet { 
+public: 
+  FixedSet(); 
+  void Initialize(const vector<int>& numbers); 
+  bool Contains(int number) const; 
+}; 
+
+Analysis:
+
+O(n) - memory usage (worse).
+O(n) - precalc (expectation).
+O(1) - per query (worse).
+
+literature:
+https://www.cs.cmu.edu/~avrim/451f11/lectures/lect1004.pdf
