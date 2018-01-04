@@ -1,5 +1,5 @@
 
-dynamic graph connectivity - oneline version:
+dynamic graph connectivity - online version:
 
 given an empty graph and the amount of vertices in it (up to 300 000), following operations are performed (up to 300 000 operations):
 - add an undirected edge
