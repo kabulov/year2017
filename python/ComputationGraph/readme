@@ -4,3 +4,18 @@ lets make our own TensorFlow
 go to : https://gitlab.com/kkabulov/ComputeGraph
 
 inspired by : https://www.tensorflow.org/
+
+consider input as a database table with rows and columns and perform operations on rows (implemented as a list of dict objects):
+
+- map: https://en.wikipedia.org/wiki/Map_(higher-order_function)
+- reduce: https://martinfowler.com/articles/collection-pipeline/reduce.html (takes sorted input)
+- sort: sort rows by set of keys (columns)
+- join: join two tables (just like in sql)
+- fold: https://en.wikipedia.org/wiki/Fold_(higher-order_function)
+
+organize computations using these basic operations.
+
+problems to solve:
+1. count frequence of each word in a series of documents
+2. for each article find 3 most relevant words - tf-idf statistics (https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+3. for each word find 10 most relevant articles - pointwise mutual information (https://en.wikipedia.org/wiki/Pointwise_mutual_information)
