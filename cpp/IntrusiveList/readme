@@ -1,0 +1,9 @@
+
+Intrusive list contains elements which already have links to previous and next element.
+
+http://www.boost.org/doc/libs/1_43_0/doc/html/intrusive/intrusive_vs_nontrusive.html
+
+following ideas applied:
+1. make base class which can be default constructed so that dummy last element may be used 
+  (to represent empty list or the element past the last)
+2. make list cyclic - to avoid thousands of ifs. 
