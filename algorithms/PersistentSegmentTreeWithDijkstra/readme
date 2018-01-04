@@ -5,7 +5,7 @@ Find the shortest path from vertex s to vertex t or else state that such path do
 the trick is that edges have weights up to 2^100000.
 
 full problem statement:
-http://codeforces.com/contest/464/problem/E
+http://codeforces.com/contest/464/problem/E?locale=en
 
 solution:
 http://codeforces.com/blog/entry/13694?locale=en
