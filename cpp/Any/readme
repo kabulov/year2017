@@ -1,0 +1,16 @@
+
+std::any implementation using templates and oop.
+
+Any one = 15;
+Any two = std::string("happy new year");
+Any three = std::vector<int>{5, 123, 49};
+
+notes:
+1. Empty method returns true if default constructed or Clear method applied.
+2. GetValue returns contents of Any, return type is provided by user.
+
+uses type erasure technique.
+literature:
+1. https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Type_Erasure
+2. https://akrzemi1.wordpress.com/2013/11/18/type-erasure-part-i/
+3. http://www.cplusplus.com/articles/oz18T05o/
