@@ -1,3 +1,4 @@
 
-split into files
-testing included
+main.cpp - testing
+treap.h - rope implementation based on treap (cartesian tree)
+solution.h - operations (insertion, deletion, is-connected) based upon rope
