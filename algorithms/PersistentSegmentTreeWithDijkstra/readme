@@ -10,7 +10,7 @@ http://codeforces.com/contest/464/problem/E
 solution:
 http://codeforces.com/blog/entry/13694?locale=en
 
-basic idea is as old as time: Dijkstra (with sets).
+basic idea is as old as time: use Dijkstra`s algorithm (with sets) to find shortest path between two vertices.
 In order to handle big edge weights persistent segment trees are used which support following operations:
 
 1. add 1 to the number (O(logn))
