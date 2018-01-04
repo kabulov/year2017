@@ -1,2 +1,20 @@
 
-python bytecode interpreter written in python
+python bytecode interpreter written in python.
+
+files:
+virtual_machine.py - interpreter implementation
+tester.py - runs test suite
+test_info_generator.py - generates bytecode related info for each test in test suite
+
+interpreter is implemented in class VirtualMachine which has method run_code which takes bytecode object (result of compile)
+or a piece of code. 
+
+handles:
+1. simple arithmetics: +,-,/,*,braces,variables,logical operations, print
+2. if, while, for
+3. functions, closures
+4. list, generator, tuple, set, map, unpacking
+
+inspired by:
+1. http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html
+2. https://github.com/nedbat/byterun
