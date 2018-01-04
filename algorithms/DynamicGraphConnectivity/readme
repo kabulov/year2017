@@ -1,2 +1,21 @@
 
-dynamic graph connectivity
+dynamic graph connectivity - oneline version:
+
+given an empty graph and the amount of vertices in it (up to 300 000), following operations are performed (up to 300 000 operations):
+- add an undirected edge
+- remove existing edge
+- print amount of connected components of the graph
+
+full problem statement:
+http://codeforces.com/gym/100551/problem/A 
+
+code in repository contains solution to online version of this problem.
+
+directories:
+- OneFileVersion : all code in one file which can be compiled and run
+- TestableVersion : the code is separated into several files and also contains testing 
+
+Runtime Analysis:
+- is-connected: O(logn) worst
+- insertion: O((logn)^2) amortized
+- deletion: O((logn)^2) amortized
