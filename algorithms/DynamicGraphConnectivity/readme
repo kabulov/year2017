@@ -19,3 +19,7 @@ Runtime Analysis:
 - is-connected: O(logn) worst
 - insertion: O((logn)^2) amortized
 - deletion: O((logn)^2) amortized
+
+literature:
+1. https://web.stanford.edu/class/cs166/lectures/17/Slides17.pdf 
+2. http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.89.919&rep=rep1&type=pdf 
