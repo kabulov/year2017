@@ -1,2 +1,9 @@
 
-simple calculator that evaluates the expression
+given simple arithmetic expression with +,-,*,/, braces and unary operations, 
+implement calculator which parses the expression and computes its the value.
+
+contains:
+Tokenizer class - splits into tokens
+ParseExpression class - takes Tokenizer and builds expression tree based upon grammar
+Expression ( Abstract class ) - contains Evaluate method
+Inherit from Expression to implement operations
