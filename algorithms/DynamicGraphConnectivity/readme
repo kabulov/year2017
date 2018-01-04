@@ -15,7 +15,7 @@ directories:
 - OneFileVersion : all code in one file which can be compiled and run
 - TestableVersion : the code is separated into several files and also contains testing 
 
-Runtime Analysis:
+Runtime Analysis (n - amount of vertices):
 - is-connected: O(logn) worst
 - insertion: O((logn)^2) amortized
 - deletion: O((logn)^2) amortized
