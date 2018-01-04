@@ -1,2 +1,22 @@
 
-given two trees, find out whether they are isomorphic 
+given two trees, find out whether they are isomorphic.
+
+input:
+1. n - amount of vertices in trees
+2. n-1 pairs of integers (from 1 to n) - edges of first tree
+3. same for second tree.
+
+output:
+if trees are isomorphic: n numbers - number n_i at position i is a correspondence between vertices i and n_i of first and second tree.
+if trees are not isomorphic: print -1
+
+(version with just yes or no)
+http://www.spoj.com/problems/TREEISO/
+
+runtime analysis:
+O(nlogn) - n is the amount of vertices
+
+literature:
+1. https://logic.pdmi.ras.ru/~smal/files/smal_jass08.pdf
+2. http://crypto.cs.mcgill.ca/~crepeau/CS250/2004/HW5+.pdf
+
