@@ -4,3 +4,4 @@
 • Telegram weather bot
 • builtin Range manual implementation
 • Decorator for a function
+• Metaclass which creates properties
