@@ -5,3 +5,4 @@ Code here is far from beautiful, but it does the job and these are quite heavy c
 •	Tree isomorphism
 •	Balanced binary search tree
 •	Persistent segment tree with Dijkstra`s algorithm
+• Fenwick Tree
