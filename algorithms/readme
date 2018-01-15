@@ -1,8 +1,8 @@
 
 Code here is far from beautiful, but it does the job and these are quite heavy cs problems to implement.
 
-•	Dynamic graph connectivity – online version
-•	Tree isomorphism
-•	Balanced binary search tree
+• Dynamic graph connectivity – online version
+• Tree isomorphism
+• Balanced binary search tree
 • Persistent segment tree with Dijkstra`s algorithm
 • Fenwick Tree
