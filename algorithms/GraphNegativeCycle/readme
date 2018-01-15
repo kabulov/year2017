@@ -1,0 +1,19 @@
+
+Given graph. Find minimal number of the node which is in the cycle with negative sum of edge weights.
+
+input:
+n - amount of nodes (1 <= n <= 1000), enumerated 1..n
+m - amount of edges (1 <= m <= 10000)
+m lines with numbers a, b, c in each:
+a, b - edge (1 <= a,b <= n)
+c - weight (1 <= c <= n)
+
+solution:
+1. find strongly connected components (use topological sort for that, use dfs for topo sort)
+2. remove edges which are not in strongly connected components
+3. use for-bellman algorithm:
+   relax n - 1 times all edges
+   then relax all edges once more: 
+     if edge relaxed then strongly connected component containing this edge is all negative cycle.
+   
+space and time linear : O(n + m)
