@@ -1,0 +1,4 @@
+
+metaclass implemented which when applied to a class (derive type of class from metaclass),
+finds methods of class which start with set_<name> or get_<name> and creates field with name <name>
+and creates getter and setter called get_<name> and set_<name>.
