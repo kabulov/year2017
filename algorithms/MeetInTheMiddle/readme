@@ -1,0 +1,8 @@
+
+meet-in-the-middle technique applied to following problem:
+
+given n (1 <= n <= 32). 1 <= L <= R <= 10^18. n pairs (w_i, c_i) - weight and price: 1 <= w_i, c_i <= 10^15.
+find subset of n pairs with maximum summary price and summary weight in [L, R].
+
+solution:
+process first 16, then process other 16, combine solutions.
