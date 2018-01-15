@@ -1,4 +1,6 @@
 
+clean code.
+
 given n (n <= 1e5) integer values (up to 2^31 - 1) find subset with following constraints:
 1. sum of 2 least is not less than max elem of the subset
 2. sum of elements is maximum among all subsets satisfying 1
