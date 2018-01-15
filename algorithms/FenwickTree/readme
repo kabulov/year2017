@@ -1,0 +1,14 @@
+
+given cube of size n (n <= 128). queries follow (up to 1e5 queries):
+1. increase value at cell (i, j, k) by v. (0 <= i, j, k < n), (-20000 <= v <= 20000)
+2. find sum in parallelepiped given with 2 opposite endpoints : 
+  (x1, y1, z1), (x2, y2, z2)
+  0 <= x1 <= x2 < n
+  0 <= y1 <= y2 < n
+  0 <= z1 <= z2 < n
+  
+  
+3d fenwick tree is implemented.
+
+space : O(n^3).
+time : O((logn)^3) for update 1 and 2 queries.
