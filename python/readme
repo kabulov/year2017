@@ -1,4 +1,5 @@
 
-•	Python bytecode interpreter written in python
-•	Compute Graph: Google`s TensorFlow analogue
-•	Telegram weather bot
+• Python bytecode interpreter written in python
+• Compute Graph: Google`s TensorFlow analogue
+• Telegram weather bot
+• builtin Range manual implementation
