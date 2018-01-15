@@ -1,0 +1,11 @@
+
+doubly linked list with iterators and all other stuff.
+
+implementation details:
+uses sentinel in the end of list which also serves as end().
+list right pointer of sentinel is first element of list and left of first is sentinel, 
+thus list is cycled and no need in many ifs.
+
+sentinel has a base class with only left and right pointers.
+otherwise it would be sometimes impossible to default construct such object 
+(if template parameter has no default constructor).
