@@ -1,0 +1,2 @@
+
+decorator which counts amount of recursive calls of a function and total function execution time.
