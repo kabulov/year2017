@@ -8,3 +8,5 @@
 • UniquePtr
 • Vector
 • Matrix - CRTP and dynamic programming
+• Deque - deque implementation with 512 byte chunks inside
+• SmartPtr - std::shared_ptr alike object
