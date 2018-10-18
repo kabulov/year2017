@@ -1,5 +1,0 @@
-{
-    "allow_change": "matrix.h",
-    "tests": "test_matrix_2",
-    "solutions": "private"
-}
