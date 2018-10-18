@@ -7,3 +7,4 @@
 • List: doubly linked list
 • UniquePtr
 • Vector
+• Matrix - CRTP and dynamic programming
